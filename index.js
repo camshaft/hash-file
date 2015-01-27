@@ -43,7 +43,7 @@ module.exports = function(file, done) {
     fileReader.onerror = done;
 
     var start = currentChunk * CHUNK_SIZE
-      , end = ((start + CHUNK_SIZE) >= file.size) ? file.size : start + chunkSize;
+      , end = ((start + CHUNK_SIZE) >= file.size) ? file.size : start + CHUNK_SIZE;
 
     fileReader.readAsArrayBuffer(blobSlice.call(file, start, end));
   };
