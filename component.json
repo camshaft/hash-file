@@ -1,8 +1,8 @@
 {
   "name": "hash-file",
-  "repo": "CamShaft/hash-file",
+  "repo": "camshaft/hash-file",
   "description": "MD5 a file in the browser using the FileReader api ",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [],
   "dependencies": {
     "satazor/SparkMD5": "*"
